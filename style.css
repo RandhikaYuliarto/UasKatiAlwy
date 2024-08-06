@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header, nav, footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigation */
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+}
+
+/* ... (style lainnya) ... */
+
+/* ... (style lainnya) ... */
+
+#sidebar {
+    background-color: #3498db; /* Biru cerah */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    position: sticky;
+    display: flex; /* Mengaktifkan flexbox */
+    flex-direction: column-reverse;
+}
+
+
+
+#sidebar h2 {
+    margin-top: 0;
+}
+
+#sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Garis pemisah dengan transparansi */
+    transition: background-color 0.3s ease; /* Transisi warna latar belakang */
+}
+
+#sidebar a:hover {
+    background-color: #2980b9; /* Biru lebih gelap saat dihover */
+}
+
+/* ... (style lainnya) ... */
+
+
+
+/* Product List */
+.product-list {
+    width: 60%;
+    padding: 10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 400px;
+    height: auto;
+}

@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6; /* Meningkatkan readability */
+    background-color: #f4f4f4; /* Warna latar belakang yang lebih lembut */
+}
+
+header, nav, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0; /* Memberi sedikit ruang ekstra */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Efek hover halus */
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Membuat teks di tengah */
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap; /* Memungkinkan elemen untuk berpindah baris jika tidak cukup ruang */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Memberi ruang antara elemen */
+}
+
+.profile-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.profile-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* Memastikan gambar tetap proporsional dan mengisi lingkaran */
+    margin-bottom: 15px;
+}
+
+.about-text {
+    flex: 1; /* Membuat elemen ini mengambil sisa ruang yang tersedia */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

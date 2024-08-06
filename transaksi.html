@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Sepatu - Transaksi</title>
+    <link rel="stylesheet" href="transaksi.css">
+</head>
+<body>
+    <header>
+        <h1>Penjualan Sepatu</h1>
+    </header>
+    
+    <nav>
+        <a href="menu utama.html">Produk</a>
+        <a href="transaksi.html">Transaksi</a>
+        <a href="tentang.html">Tentang Kami</a>
+    </nav>
+
+    <main>
+        <section class="form-section">
+            <h2>Form Transaksi</h2>
+            <form action="invoice.html" method="get">
+                <input name="cek" value="cek" style="visibility: 0; opacity: 0;"/>
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <input type="text" id="alamat" name="alamat" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <label for="produk">Produk:</label>
+                <select id="produk" name="produk">
+                    <option value="1">Yankees Black - Rp100.000</option>
+                    <option value="2">Yankees White - Rp200.000</option>
+                    <option value="3">Yankees Kece - Rp300.000</option>
+                    <option value="4">Yankees Pink - Rp400.000</option>
+                    <option value="5">Yankees Snow - Rp500.000</option>
+                </select><br>
+                <br>
+                <input type="submit" value="Pesan">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Penjualan Sepatu</p>
+    </footer>
+    <script src="transaksi.js"></script>
+</body>
+</html>
